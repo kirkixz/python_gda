@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GDA.iml" filepath="$PROJECT_DIR$/.idea/GDA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python_gda.iml" filepath="$PROJECT_DIR$/.idea/python_gda.iml" />
     </modules>
   </component>
 </project>
