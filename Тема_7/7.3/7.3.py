@@ -4,10 +4,12 @@ def print_long_word(file):
         max_len = 0
         lst = []
 
+        # Ищем максимальную длину
         for j in text:
             if len(j) > max_len:
                 max_len = len(j)
 
+        # Ищем слово максимальной длины и добавляем в список
         for i in text:
             if len(i) == max_len:
                 lst.append(i.rstrip('\n\r'))
