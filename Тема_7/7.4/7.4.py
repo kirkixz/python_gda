@@ -11,7 +11,6 @@ def print_word_count(file, search_word) -> int:
                 for char in marks:
                     j = j.replace(char, '')
                 if j == search_word.lower():
-                    print(j)
                     counter += 1
 
     print(counter)
