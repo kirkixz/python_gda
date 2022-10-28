@@ -1,4 +1,4 @@
-def read_last(lines, file):
+def print_last_ln(lines, file):
     with open(file=file, mode='r', encoding='utf-8') as f:
         text = f.readlines()
         text.reverse()
@@ -7,4 +7,4 @@ def read_last(lines, file):
             print(text[i].strip())
 
 
-read_last(5, r"C:\Users\user\Desktop\data.txt")
+print_last_ln(5, r"C:\Users\user\Desktop\data.txt")
