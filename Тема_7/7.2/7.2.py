@@ -1,5 +1,5 @@
-def print_last_ln(lines, file):
-    with open(file=file, mode='r', encoding='utf-8') as f:
+def print_last_ln(lines, path):
+    with open(file=path, mode='r', encoding='utf-8') as f:
         text = f.readlines()
         text.reverse()
 
