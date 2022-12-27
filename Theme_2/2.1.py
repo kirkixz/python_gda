@@ -6,4 +6,3 @@ if temperature_room > desired_temperature and humidity_air < 80:
     print("on")
 else:
     print("off")
-
